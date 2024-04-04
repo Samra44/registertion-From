@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from registertation</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="b.js">
+</head>
+<body>
+      <style>
+form{
+      border:2px solid black;
+      max-width:400px;
+      margin: auto;
+      padding:20px;
+      border-radius:10px ;
+     background: url(https://extension.umn.edu/sites/extension.umn.edu/files/red-pearl-400.jpg);
+}
+
+h1{
+    text-align:center ;
+    color: rgb(146, 72, 72);
+}
+
+input[type=Password],input[type=tel],input[type=email],input[type=submit],input[type=text],textarea,select{
+     border:2px solid rgb(100, 99, 19);
+     border-radius: 10px;
+     display: block;
+     margin-top: 10px;
+     padding: 5px;
+}
+
+input[type=checkbox],input[type=radio]{
+     padding: 10px;
+}
+
+      </style>
+
+   
+
+
+
+
+
+            <form action="">
+               <label for="">Enter your Name</label><br>   
+               <input type="text" id="name" placeholder="type name here"><br><br>
+               <label for="">Enter your Password</label><br>
+               <input type="password" id="password" placeholder="Enter Password"><br><br>
+               <label for="">Enter your Email</label><br>
+               <input type="email" id="email" placeholder="Enter email here"><br><br>
+               <label for="">Enter your Number</label><br>
+               <input type="tel" id="number" placeholder="Enter number here"><br><br>
+               <label for="">Select your Gender</label><br><br>
+               <div>
+               <input type="radio" name="Gender" value="Male">Male
+               <input type="radio" name="Gender" value="Female">Female   
+               <input type="radio" name="Gender" value="Other">Other
+               </div>
+               <div>
+               <label>Do you Agree</label>   
+               <input type="checkbox" id="checkbox" >
+               </div> 
+
+               <label>Write some Comment here</label>
+               <textarea name="" id="explain" cols="30" rows="10" placeholder="write Comment here"></textarea>
+               <label for="">Select your Country</label><br>
+               <select name="" id="country">
+                  <option value="No country">No country</option>
+                  <option value="Pakistan">Pakistan</option>
+                  <option value="India">India</option>
+                  <option value="Turkey">Turkey</option>
+                  <option value="Palistein">Palistein</option>
+               </select>
+
+               <input type="submit">
+            </form>
+</body>
+</html>
